@@ -81,3 +81,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+Project/Assets/GoogleVR.meta
+Project/Assets/Plugins.meta
+Project/GvrIgnoreManifestMergeCheck.txt
