@@ -1,0 +1,895 @@
+fileFormatVersion: 2
+guid: ec3442fd6d190214c841325468bc194b
+timeCreated: 1493303309
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 00 - Dancer.005
+    100002: 00 - hips
+    100004: 00-EstacaHips
+    100006: Abdomen
+    100008: Bone01.013_L
+    100010: Bone01.013_L_end
+    100012: Bone01.013_R
+    100014: Bone01.013_R_end
+    100016: Bone02.021_L
+    100018: Bone02.021_R
+    100020: Bone02.022_L
+    100022: Bone02.022_L_end
+    100024: Bone02.022_R
+    100026: Bone02.022_R_end
+    100028: Bone02.051_L
+    100030: Bone02.051_R
+    100032: Bone02.052_L
+    100034: Bone02.052_L_end
+    100036: Bone02.052_R
+    100038: Bone02.052_R_end
+    100040: Bone02_L
+    100042: Bone02_R
+    100044: Bone03_L
+    100046: Bone03_R
+    100048: Bone04_L
+    100050: Bone04_R
+    100052: Bone06_L
+    100054: Bone06_R
+    100056: Bone07_L
+    100058: Bone07_R
+    100060: Bone08_L
+    100062: Bone08_R
+    100064: Cube.009
+    100066: Cuello
+    100068: Dedos.001_L
+    100070: Dedos.001_L_end
+    100072: Dedos.001_R
+    100074: Dedos.001_R_end
+    100076: Dedos.003_L
+    100078: Dedos.003_L_end
+    100080: Dedos.003_R
+    100082: Dedos.003_R_end
+    100084: Head
+    100086: Head_end
+    100088: Hip01_L
+    100090: Hip01_R
+    100092: Hombros_L
+    100094: Hombros_R
+    100096: Mano_Estaca_L
+    100098: Mano_Estaca_L_end
+    100100: Mano_Estaca_R
+    100102: Mano_Estaca_R_end
+    100104: "Mano_Mu\xF1eca_L"
+    100106: "Mano_Mu\xF1eca_R"
+    100108: Pecho
+    100110: Pie_Base_L
+    100112: Pie_Base_R
+    100114: Pie_Punta_L
+    100116: Pie_Punta_L_end
+    100118: Pie_Punta_R
+    100120: Pie_Punta_R_end
+    100122: Pie_Talon_L
+    100124: Pie_Talon_R
+    100126: Pie_Tobillo_L
+    100128: Pie_Tobillo_L_end
+    100130: Pie_Tobillo_R
+    100132: Pie_Tobillo_R_end
+    100134: //RootNode
+    100136: Spear
+    100138: Spear_end
+    400000: 00 - Dancer.005
+    400002: 00 - hips
+    400004: 00-EstacaHips
+    400006: Abdomen
+    400008: Bone01.013_L
+    400010: Bone01.013_L_end
+    400012: Bone01.013_R
+    400014: Bone01.013_R_end
+    400016: Bone02.021_L
+    400018: Bone02.021_R
+    400020: Bone02.022_L
+    400022: Bone02.022_L_end
+    400024: Bone02.022_R
+    400026: Bone02.022_R_end
+    400028: Bone02.051_L
+    400030: Bone02.051_R
+    400032: Bone02.052_L
+    400034: Bone02.052_L_end
+    400036: Bone02.052_R
+    400038: Bone02.052_R_end
+    400040: Bone02_L
+    400042: Bone02_R
+    400044: Bone03_L
+    400046: Bone03_R
+    400048: Bone04_L
+    400050: Bone04_R
+    400052: Bone06_L
+    400054: Bone06_R
+    400056: Bone07_L
+    400058: Bone07_R
+    400060: Bone08_L
+    400062: Bone08_R
+    400064: Cube.009
+    400066: Cuello
+    400068: Dedos.001_L
+    400070: Dedos.001_L_end
+    400072: Dedos.001_R
+    400074: Dedos.001_R_end
+    400076: Dedos.003_L
+    400078: Dedos.003_L_end
+    400080: Dedos.003_R
+    400082: Dedos.003_R_end
+    400084: Head
+    400086: Head_end
+    400088: Hip01_L
+    400090: Hip01_R
+    400092: Hombros_L
+    400094: Hombros_R
+    400096: Mano_Estaca_L
+    400098: Mano_Estaca_L_end
+    400100: Mano_Estaca_R
+    400102: Mano_Estaca_R_end
+    400104: "Mano_Mu\xF1eca_L"
+    400106: "Mano_Mu\xF1eca_R"
+    400108: Pecho
+    400110: Pie_Base_L
+    400112: Pie_Base_R
+    400114: Pie_Punta_L
+    400116: Pie_Punta_L_end
+    400118: Pie_Punta_R
+    400120: Pie_Punta_R_end
+    400122: Pie_Talon_L
+    400124: Pie_Talon_R
+    400126: Pie_Tobillo_L
+    400128: Pie_Tobillo_L_end
+    400130: Pie_Tobillo_R
+    400132: Pie_Tobillo_R_end
+    400134: //RootNode
+    400136: Spear
+    400138: Spear_end
+    4300000: Cube.009
+    7400000: 00 - Dancer.005|00 - Dancer 001Action.003
+    7400002: 00 - Dancer.005|00 - Dancer 001Action.004
+    7400004: IdleCussi
+    7400006: 00 - Dancer.005|00 - Dancer 001Action.006
+    7400008: 00 - Dancer.005|00 - Dancer 001Action.007
+    7400010: 00 - Dancer.005|Sun.003Action
+    7400012: WalkCussi
+    7400014: HelpCusii
+    7400016: DieCusii
+    9500000: //RootNode
+    13700000: Cube.009
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdleCussi
+      takeName: 00 - Dancer.005|00 - Dancer 001Action.005
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 00 - Dancer.005
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L/Bone01.013_L_end
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R/Bone01.013_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head/Head_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L/Bone02.022_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L/Bone02.052_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L/Dedos.001_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L/Dedos.003_L_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R/Bone02.022_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R/Bone02.052_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R/Dedos.001_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R/Dedos.003_R_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear/Spear_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L/Mano_Estaca_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R/Mano_Estaca_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L/Pie_Tobillo_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L/Pie_Punta_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R/Pie_Tobillo_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R/Pie_Punta_R_end
+        weight: 1
+      - path: Cube.009
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkCussi
+      takeName: 00 - Dancer.005|00 - Dancer 001Action.005
+      firstFrame: 200
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 00 - Dancer.005
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L/Bone01.013_L_end
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R/Bone01.013_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head/Head_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L/Bone02.022_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L/Bone02.052_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L/Dedos.001_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L/Dedos.003_L_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R/Bone02.022_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R/Bone02.052_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R/Dedos.001_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R/Dedos.003_R_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear/Spear_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L/Mano_Estaca_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R/Mano_Estaca_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L/Pie_Tobillo_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L/Pie_Punta_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R/Pie_Tobillo_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R/Pie_Punta_R_end
+        weight: 1
+      - path: Cube.009
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HelpCusii
+      takeName: 00 - Dancer.005|00 - Dancer 001Action.005
+      firstFrame: 260
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 00 - Dancer.005
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L/Bone01.013_L_end
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R/Bone01.013_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head/Head_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L/Bone02.022_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L/Bone02.052_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L/Dedos.001_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L/Dedos.003_L_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R/Bone02.022_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R/Bone02.052_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R/Dedos.001_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R/Dedos.003_R_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear/Spear_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L/Mano_Estaca_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R/Mano_Estaca_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L/Pie_Tobillo_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L/Pie_Punta_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R/Pie_Tobillo_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R/Pie_Punta_R_end
+        weight: 1
+      - path: Cube.009
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DieCusii
+      takeName: 00 - Dancer.005|00 - Dancer 001Action.005
+      firstFrame: 430
+      lastFrame: 462
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 00 - Dancer.005
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L/Bone01.013_L_end
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R/Bone01.013_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head/Head_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L/Bone02.022_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L/Bone02.052_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L/Dedos.001_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L/Dedos.003_L_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R/Bone02.022_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R/Bone02.052_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R/Dedos.001_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R/Dedos.003_R_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear/Spear_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L/Mano_Estaca_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R/Mano_Estaca_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L/Pie_Tobillo_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L/Pie_Punta_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R/Pie_Tobillo_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R/Pie_Punta_R_end
+        weight: 1
+      - path: Cube.009
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
