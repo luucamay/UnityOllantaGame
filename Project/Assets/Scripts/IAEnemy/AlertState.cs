@@ -43,22 +43,25 @@ public class AlertState : IEnemyState
 	private void Look()
 	{
 		RaycastHit hit;
-		if (Physics.Raycast (enemy.eyes.transform.position, enemy.eyes.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag ("Player")) {
-			enemy.chaseTarget = hit.transform;
-			ToChaseState();
+		//si puedo ver al jugador, entonces ir al estado de chase
+		if (enemy.controladorVision.PuedeVerAlJugador (out hit)) {
+			//dar la posicion al navmesh para perseguir al jugador
+			enemy.controladorNavMesh.perseguirObjectivo = hit.transform;
+			//enemy.chaseTarget = hit.transform;
+			ToChaseState ();
 		}
 	}
 
 	private void Search()
 	{
 		enemy.meshRendererFlag.material.color = Color.yellow;
-		enemy.navMeshAgent.Stop ();
+		//detenerAgente
+		enemy.controladorNavMesh.DetenerNavMeshAgent();
+		//rotar en su propio eje
 		enemy.transform.Rotate (0, enemy.searchingTurnSpeed * Time.deltaTime, 0);
+		//controlar el tiempo de rotacion
 		searchTimer += Time.deltaTime;
-
 		if (searchTimer >= enemy.searchingDuration)
 			ToPatrolState ();
 	}
-
-
 }

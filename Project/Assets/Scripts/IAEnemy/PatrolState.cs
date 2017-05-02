@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PatrolState : IEnemyState 
-
+public class PatrolState :IEnemyState
 {
 	private readonly StatePatternEnemy enemy;
 	private int nextWayPoint;
@@ -12,11 +11,10 @@ public class PatrolState : IEnemyState
 		enemy = statePatternEnemy;
 	}
 
-	public void UpdateState()
+	public void UpdateState ()
 	{
 		Look ();
 		Patrol ();
-		Debug.DrawRay (enemy.eyes.transform.position, enemy.eyes.transform.forward*enemy.sightRange,Color.black);
 	}
 
 	public void OnTriggerEnter (Collider other)
@@ -25,41 +23,46 @@ public class PatrolState : IEnemyState
 			ToAlertState ();
 	}
 
-	public void ToPatrolState()
+	public void ToPatrolState ()
 	{
 		Debug.Log ("Can't transition to same state");
 	}
 
-	public void ToAlertState()
+	public void ToAlertState ()
 	{
 		enemy.currentState = enemy.alertState;
 	}
 
-	public void ToChaseState()
+	public void ToChaseState ()
 	{
 		enemy.currentState = enemy.chaseState;
 	}
 	//¿puedo ver al enemigo?
-	private void Look()
+	private void Look ()
 	{
 		RaycastHit hit;
-		if (Physics.Raycast (enemy.eyes.transform.position, enemy.eyes.transform.forward, out hit, enemy.sightRange) && hit.collider.CompareTag ("Player")) {
-			enemy.chaseTarget = hit.transform;
-			ToChaseState();
+		//si puedo ver al jugador, entonces ir al estado de chase
+		if (enemy.controladorVision.PuedeVerAlJugador (out hit)) {
+			//dar la posicion al navmesh para perseguir al jugador
+			enemy.controladorNavMesh.perseguirObjectivo = hit.transform;
+			//enemy.chaseTarget = hit.transform;
+			ToChaseState ();
 		}
 	}
 	//vigilar de acyerdi a los way points
 	void Patrol ()
 	{
+		//para cambiar el color del cubo
 		enemy.meshRendererFlag.material.color = Color.green;
-		enemy.navMeshAgent.destination = enemy.wayPoints [nextWayPoint].position;
-		enemy.navMeshAgent.Resume ();
-
-		if (enemy.navMeshAgent.remainingDistance <= enemy.navMeshAgent.stoppingDistance && !enemy.navMeshAgent.pathPending) {
-			nextWayPoint =(nextWayPoint + 1) % enemy.wayPoints.Length;
-
+		//preguntar si hemos llegado
+		if (enemy.controladorNavMesh.HemosLlegado())
+		{
+			nextWayPoint = (nextWayPoint + 1) % enemy.wayPoints.Length;
+			ActualizarWayPointDestino();
 		}
-
-
+	}
+	void ActualizarWayPointDestino()
+	{
+		enemy.controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent(enemy.wayPoints[nextWayPoint].position);
 	}
 }

@@ -1,46 +1,54 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StatePatternEnemy : MonoBehaviour 
+public class StatePatternEnemy : MonoBehaviour
 {
+	//velocidad de giro
 	public float searchingTurnSpeed = 120f;
+	//duracion de busqueda
 	public float searchingDuration = 4f;
-	public float sightRange = 20f;
-	public Transform[] wayPoints;
-	public Transform eyes;
-	public Vector3 offset = new Vector3 (0,.5f,0);
-	public MeshRenderer meshRendererFlag;
+	//este es un vector de transforms para dar la informacion al navmesh
+	public Transform[] wayPoints;/*en el otro script esto esta declarado en el estado patrol*/
 
+	public MeshRenderer meshRendererFlag;//esto es solo para cambiar el color del cubo de acuerdo al estado
 
-	[HideInInspector] public Transform chaseTarget;
+	//estas variables son variables que ya están declaradas en el ControladorVision
+	[HideInInspector] public float sightRange = 20f;
+	[HideInInspector] public Transform eyes;
+	[HideInInspector] public Vector3 offset = new Vector3 (0, .5f, 0);
+	//se declaran variables invisibles en el inspector de tipo estados
 	[HideInInspector] public IEnemyState currentState;
 	[HideInInspector] public ChaseState chaseState;
 	[HideInInspector] public AlertState alertState;
 	[HideInInspector] public PatrolState patrolState;
+	//se declaran variables invisibles en el inspector que son componentes del enemigo
+	[HideInInspector] public Transform chaseTarget;
 	[HideInInspector] public NavMeshAgent navMeshAgent;
+	[HideInInspector] public ControladorVision controladorVision;
+	[HideInInspector] public ControladorNavMesh controladorNavMesh;
 
-	private void Awake()
+	private void Awake ()
 	{
 		chaseState = new ChaseState (this);
 		alertState = new AlertState (this);
 		patrolState = new PatrolState (this);
-
+		//obteniendo el componente de navmesh
 		navMeshAgent = GetComponent<NavMeshAgent> ();
+		controladorVision = GetComponent<ControladorVision> ();
+		controladorNavMesh = GetComponent<ControladorNavMesh> ();
 	}
 
-	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
-		currentState = patrolState;
+		currentState = patrolState;//definiendo como estado inicial a patrolState
 	}
 
-	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
 		currentState.UpdateState ();
 	}
-
-	private void OnTriggerEnter(Collider other)
+	//cuando se activa el trigger activar el trigger del estado actual
+	private void OnTriggerEnter (Collider other)
 	{
 		currentState.OnTriggerEnter (other);
 	}

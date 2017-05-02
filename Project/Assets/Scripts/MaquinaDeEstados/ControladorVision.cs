@@ -16,6 +16,7 @@ public class ControladorVision : MonoBehaviour {
 
     public bool PuedeVerAlJugador(out RaycastHit hit, bool mirarHaciaElJugador = false)
     {
+		//decidiendo en que direccion mirar
         Vector3 vectorDireccion;
         if (mirarHaciaElJugador)
         {
@@ -24,7 +25,7 @@ public class ControladorVision : MonoBehaviour {
         {
             vectorDireccion = Ojos.forward;
         }
-
+		//acá lanzamos el raycast, desde la posicion de los ojos, con vectorDireccion,el raycast, y el tamaño de la vision, y luego preguntar si choca con el collider del juagador
         return Physics.Raycast(Ojos.position, vectorDireccion, out hit, rangoVision) && hit.collider.CompareTag("Player");
     }
 }
