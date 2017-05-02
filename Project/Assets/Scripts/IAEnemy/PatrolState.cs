@@ -54,15 +54,16 @@ public class PatrolState :IEnemyState
 	{
 		//para cambiar el color del cubo
 		enemy.meshRendererFlag.material.color = Color.green;
-		ActualizarWayPointDestino();
+		ActualizarWayPointDestino ();
 		//preguntar si hemos llegado
-		if (enemy.controladorNavMesh.HemosLlegado())
-		{
+		enemy.animGuardiaGrande.SetBool(enemy.isWalkingHash,true);
+		if (enemy.controladorNavMesh.HemosLlegado ()) {
 			nextWayPoint = (nextWayPoint + 1) % enemy.wayPoints.Length;
 		}
 	}
-	void ActualizarWayPointDestino()
+
+	void ActualizarWayPointDestino ()
 	{
-		enemy.controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent(enemy.wayPoints[nextWayPoint].position);
+		enemy.controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent (enemy.wayPoints [nextWayPoint].position);
 	}
 }

@@ -22,6 +22,8 @@ public class StatePatternEnemy : MonoBehaviour
 	[HideInInspector] public NavMeshAgent navMeshAgent;
 	[HideInInspector] public ControladorVision controladorVision;
 	[HideInInspector] public ControladorNavMesh controladorNavMesh;
+	[HideInInspector] public Animator animGuardiaGrande;
+	[HideInInspector] public int isWalkingHash=Animator.StringToHash("IsWalking");
 
 	private void Awake ()
 	{
@@ -32,6 +34,7 @@ public class StatePatternEnemy : MonoBehaviour
 		navMeshAgent = GetComponent<NavMeshAgent> ();
 		controladorVision = GetComponent<ControladorVision> ();
 		controladorNavMesh = GetComponent<ControladorNavMesh> ();
+		animGuardiaGrande = GetComponent<Animator> ();
 	}
 
 	void Start ()
