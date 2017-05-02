@@ -12,10 +12,6 @@ public class StatePatternEnemy : MonoBehaviour
 
 	public MeshRenderer meshRendererFlag;//esto es solo para cambiar el color del cubo de acuerdo al estado
 
-	//estas variables son variables que ya están declaradas en el ControladorVision
-	[HideInInspector] public float sightRange = 20f;
-	[HideInInspector] public Transform eyes;
-	[HideInInspector] public Vector3 offset = new Vector3 (0, .5f, 0);
 	//se declaran variables invisibles en el inspector de tipo estados
 	[HideInInspector] public IEnemyState currentState;
 	[HideInInspector] public ChaseState chaseState;
