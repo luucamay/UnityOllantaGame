@@ -19,7 +19,7 @@ public class StatePatternEnemy : MonoBehaviour
 	[HideInInspector] public PatrolState patrolState;
 	//se declaran variables invisibles en el inspector que son componentes del enemigo
 	[HideInInspector] public Transform chaseTarget;
-	[HideInInspector] public UnityEngine.AI.NavMeshAgent navMeshAgent;
+	[HideInInspector] public NavMeshAgent navMeshAgent;
 	[HideInInspector] public ControladorVision controladorVision;
 	[HideInInspector] public ControladorNavMesh controladorNavMesh;
 	[HideInInspector] public Animator animGuardiaGrande;
@@ -31,7 +31,7 @@ public class StatePatternEnemy : MonoBehaviour
 		alertState = new AlertState (this);
 		patrolState = new PatrolState (this);
 		//obteniendo el componente de navmesh
-		navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
+		navMeshAgent = GetComponent<NavMeshAgent> ();
 		controladorVision = GetComponent<ControladorVision> ();
 		controladorNavMesh = GetComponent<ControladorNavMesh> ();
 		animGuardiaGrande = GetComponent<Animator> ();

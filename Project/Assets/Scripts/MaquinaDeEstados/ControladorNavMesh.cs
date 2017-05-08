@@ -6,10 +6,10 @@ public class ControladorNavMesh : MonoBehaviour {
     [HideInInspector]
     public Transform perseguirObjectivo;
 
-    private UnityEngine.AI.NavMeshAgent navMeshAgent;
+    private NavMeshAgent navMeshAgent;
 
 	void Awake () {
-        navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        navMeshAgent = GetComponent<NavMeshAgent>();
 	}
 	
 	public void ActualizarPuntoDestinoNavMeshAgent(Vector3 puntoDestino) {
