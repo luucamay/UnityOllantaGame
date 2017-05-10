@@ -11,5 +11,9 @@ public interface IEnemyState
 
 	void ToAlertState ();
 
-	void ToChaseState ();	
+	void ToChaseState ();
+
+	void ToAtackState ();
+
+	void ToLookState ();
 }

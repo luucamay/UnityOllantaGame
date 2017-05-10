@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ChaseState : IEnemyState 
-
+public class ChaseState : IEnemyState
 {
 
 	private readonly StatePatternEnemy enemy;
@@ -12,7 +11,7 @@ public class ChaseState : IEnemyState
 		enemy = statePatternEnemy;
 	}
 
-	public void UpdateState()
+	public void UpdateState ()
 	{
 		Look ();
 		Chase ();
@@ -22,21 +21,30 @@ public class ChaseState : IEnemyState
 	{
 	}
 
-	public void ToPatrolState()
+	public void ToPatrolState ()
 	{
 	}
 
-	public void ToAlertState()
+	public void ToAlertState ()
 	{
 		enemy.currentState = enemy.alertState;
 	}
 
-	public void ToChaseState()
+	public void ToChaseState ()
 	{
 		Debug.Log ("Can't transition to same state");
 	}
 
-	private void Look()
+	public void ToAtackState ()
+	{
+		enemy.currentState = enemy.atackState;
+	}
+
+	public void ToLookState ()
+	{
+	}
+
+	private void Look ()
 	{
 		RaycastHit hit;
 		//no puedo ver al enemigo?
@@ -45,10 +53,22 @@ public class ChaseState : IEnemyState
 		}
 	}
 
-	private void Chase()
+	private void Chase ()
 	{
 		enemy.meshRendererFlag.material.color = Color.red;
-
-		enemy.controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent();    
+		enemy.controladorAnimator.Correr ();
+		EstoyCerca ();
+		enemy.controladorNavMesh.CambiarVelocidad (3);
+		enemy.controladorNavMesh.ActualizarPuntoDestinoNavMeshAgent ();  
 	}
+
+	private void EstoyCerca ()
+	{
+		RaycastHit hit;
+		//no puedo ver al enemigo?
+		if (enemy.controladorVision.PuedeVerAlJugador (out hit,true,16)) {
+			ToAtackState ();
+		}
+	}
+
 }

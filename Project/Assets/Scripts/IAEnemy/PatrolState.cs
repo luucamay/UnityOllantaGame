@@ -37,6 +37,15 @@ public class PatrolState :IEnemyState
 	{
 		enemy.currentState = enemy.chaseState;
 	}
+
+	public void ToAtackState ()
+	{
+	}
+
+	public void ToLookState ()
+	{
+		enemy.currentState = enemy.lookState;
+	}
 	//¿puedo ver al enemigo?
 	private void Look ()
 	{
@@ -56,9 +65,11 @@ public class PatrolState :IEnemyState
 		enemy.meshRendererFlag.material.color = Color.green;
 		ActualizarWayPointDestino ();
 		//preguntar si hemos llegado
-		enemy.animGuardiaGrande.SetBool(enemy.isWalkingHash,true);
+		enemy.controladorAnimator.Caminar ();
 		if (enemy.controladorNavMesh.HemosLlegado ()) {
 			nextWayPoint = (nextWayPoint + 1) % enemy.wayPoints.Length;
+			//detener script e ir a estado de observar a los costados
+			ToLookState ();
 		}
 	}
 

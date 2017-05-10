@@ -350,8 +350,8 @@ ModelImporter:
     - serializedVersion: 16
       name: WalkLittleWarrior
       takeName: 00 - Dancer.004|00 - Dancer 001Action.003
-      firstFrame: 200
-      lastFrame: 300
+      firstFrame: 201
+      lastFrame: 260
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -518,15 +518,15 @@ ModelImporter:
     - serializedVersion: 16
       name: LookAroundLittleWarrior
       takeName: 00 - Dancer.004|00 - Dancer 001Action.003
-      firstFrame: 300
-      lastFrame: 342
+      firstFrame: 261
+      lastFrame: 310
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

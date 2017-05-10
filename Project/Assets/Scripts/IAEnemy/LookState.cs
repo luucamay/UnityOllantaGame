@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AlertState : IEnemyState
+public class LookState :IEnemyState
 {
 	private readonly StatePatternEnemy enemy;
-	private float searchTimer;
+	private float lookTimer;
 
-	public AlertState (StatePatternEnemy statePatternEnemy)
+	public LookState (StatePatternEnemy statePatternEnemy)
 	{
 		enemy = statePatternEnemy;
 	}
@@ -14,37 +14,40 @@ public class AlertState : IEnemyState
 	public void UpdateState ()
 	{
 		Look ();
-		Search ();
+		ObservarLados ();
 	}
 
 	public void OnTriggerEnter (Collider other)
 	{
-
+		if (other.gameObject.CompareTag ("Player"))
+			ToAlertState ();
 	}
 
 	public void ToPatrolState ()
 	{
 		enemy.currentState = enemy.patrolState;
-		searchTimer = 0f;
+		lookTimer = 0f;
 	}
 
 	public void ToAlertState ()
 	{
-		Debug.Log ("Can't transition to same state");
+		enemy.currentState = enemy.alertState;
+		lookTimer = 0f;
 	}
 
 	public void ToChaseState ()
 	{
 		enemy.currentState = enemy.chaseState;
-		searchTimer = 0f;
+		lookTimer = 0f;
 	}
 
 	public void ToAtackState ()
-	{
+	{//no se puede desde que observa porque primero tiene que estar en chase y luego recien puede atacar
 	}
 
 	public void ToLookState ()
 	{
+		Debug.Log ("Can't transition to same state");
 	}
 
 	private void Look ()
@@ -59,17 +62,15 @@ public class AlertState : IEnemyState
 		}
 	}
 
-	private void Search ()
+	private void ObservarLados ()
 	{
-		enemy.meshRendererFlag.material.color = Color.yellow;
-		enemy.controladorAnimator.Caminar ();
-		//detenerAgente
+		//que se detenga
 		enemy.controladorNavMesh.DetenerNavMeshAgent ();
-		//rotar en su propio eje
-		enemy.transform.Rotate (0, enemy.searchingTurnSpeed * Time.deltaTime, 0);
-		//controlar el tiempo de rotacion
-		searchTimer += Time.deltaTime;
-		if (searchTimer >= enemy.searchingDuration)
+		//comienza a mirar a los lados
+		enemy.controladorAnimator.Mirar ();
+		//termina de mirar entonces volver al estado de patrulla
+		lookTimer += Time.deltaTime;
+		if (lookTimer >= enemy.lookingDuration)
 			ToPatrolState ();
 	}
 }
