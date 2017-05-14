@@ -36,6 +36,11 @@ ModelImporter:
     4300004: Cubo
     4300006: "C\xEDrculo.001"
     4300008: "C\xEDrculo"
+    6400000: Cubo
+    6400002: Cubo.001
+    6400004: Cubo.002
+    6400006: "C\xEDrculo"
+    6400008: "C\xEDrculo.001"
   materials:
     importMaterials: 1
     materialName: 0
@@ -62,10 +67,10 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
-    swapUVChannels: 0
-    generateSecondaryUV: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

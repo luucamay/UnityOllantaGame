@@ -12,6 +12,9 @@ public class PerderJuego : MonoBehaviour {
 	void Start () {
 		screenFader = GetComponent<ScreenFader> ();
 		textoCanvas =  GameObject.FindGameObjectWithTag ("TextCanvas").GetComponent <Text> ();
+		transform.position = nuevaPosicion.position;
+		transform.rotation = nuevaPosicion.rotation;
+		textoCanvas.text="";
 	}
 	
 	void Update () {
@@ -28,9 +31,7 @@ public class PerderJuego : MonoBehaviour {
 			screenFader.fadeIn = false;
 			yield return new WaitForSeconds (tiempo);
 			screenFader.fadeIn = true;
-			transform.position = nuevaPosicion.position;
-			transform.rotation = nuevaPosicion.rotation;
-			textoCanvas.text="";
+			Application.LoadLevel ("Ollantay");
 		}
 	}
 }
