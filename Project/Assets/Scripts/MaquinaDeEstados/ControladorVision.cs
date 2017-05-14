@@ -6,6 +6,7 @@ public class ControladorVision : MonoBehaviour
 
 	public Transform Ojos;
 	public float rangoVision = 20f;
+	public float rangoAtaque = 16f;
 	public Vector3 offset = new Vector3 (0f, 0.75f, 0f);
 
 	private ControladorNavMesh controladorNavMesh;

@@ -49,4 +49,5 @@ public class AtackState :IEnemyState
 		enemy.meshRendererFlag.material.color = Color.magenta;
 		enemy.controladorAnimator.Atacar ();
 	}
+
 }

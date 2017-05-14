@@ -66,7 +66,7 @@ public class ChaseState : IEnemyState
 	{
 		RaycastHit hit;
 		//no puedo ver al enemigo?
-		if (enemy.controladorVision.PuedeVerAlJugador (out hit,true,16)) {
+		if (enemy.controladorVision.PuedeVerAlJugador (out hit,true,enemy.controladorVision.rangoAtaque)) {
 			ToAtackState ();
 		}
 	}
