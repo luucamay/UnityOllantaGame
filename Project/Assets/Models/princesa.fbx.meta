@@ -146,7 +146,7 @@ ModelImporter:
     400136: Spear
     400138: Spear_end
     4300000: Cube.009
-    7400000: 00 - Dancer.005|00 - Dancer 001Action.003
+    7400000: Talk
     7400002: 00 - Dancer.005|00 - Dancer 001Action.004
     7400004: IdleCussi
     7400006: 00 - Dancer.005|00 - Dancer 001Action.006
@@ -168,10 +168,66 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip '00 - Dancer.005|00 - Dancer 001Action.003' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Abdomen' has translation
+      animation that will be discarded.\n\t'Bone03_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00-EstacaHips' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00 - hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.005|00 - Dancer 001Action.004' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' has translation animation
+      that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00 - hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.005|00 - Dancer 001Action.005' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00-EstacaHips' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00 - hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.005|00 - Dancer 001Action.006' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' has translation animation
+      that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00 - hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.005|00 - Dancer 001Action.007' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' has translation animation
+      that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'00 - hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -850,15 +906,183 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talk
+      takeName: 00 - Dancer.005|00 - Dancer 001Action.003
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 00 - Dancer.005
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_L/Bone06_L/Bone07_L/Bone08_L/Bone01.013_L/Bone01.013_L_end
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R
+        weight: 1
+      - path: 00 - Dancer.005/00-EstacaHips/00 - hips/Hip01_R/Bone06_R/Bone07_R/Bone08_R/Bone01.013_R/Bone01.013_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Cuello/Head/Head_end
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.021_L/Bone02.022_L/Bone02.022_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Bone02.051_L/Bone02.052_L/Bone02.052_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.001_L/Dedos.001_L_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_L/Bone04_L/Bone03_L/Bone02_L/Mano_Mu\xF1eca_L/Dedos.003_L/Dedos.003_L_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.021_R/Bone02.022_R/Bone02.022_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Bone02.051_R/Bone02.052_R/Bone02.052_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.001_R/Dedos.001_R_end"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R"
+        weight: 1
+      - path: "00 - Dancer.005/Abdomen/Pecho/Hombros_R/Bone04_R/Bone03_R/Bone02_R/Mano_Mu\xF1eca_R/Dedos.003_R/Dedos.003_R_end"
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear
+        weight: 1
+      - path: 00 - Dancer.005/Abdomen/Pecho/Spear/Spear_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_L/Mano_Estaca_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R
+        weight: 1
+      - path: 00 - Dancer.005/Mano_Estaca_R/Mano_Estaca_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Base_L/Pie_Tobillo_L/Pie_Tobillo_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_L/Pie_Punta_L/Pie_Punta_L_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Base_R/Pie_Tobillo_R/Pie_Tobillo_R_end
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R
+        weight: 1
+      - path: 00 - Dancer.005/Pie_Talon_R/Pie_Punta_R/Pie_Punta_R_end
+        weight: 1
+      - path: Cube.009
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
-    swapUVChannels: 0
-    generateSecondaryUV: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
