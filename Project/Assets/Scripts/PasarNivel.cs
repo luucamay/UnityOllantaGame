@@ -15,9 +15,6 @@ public class PasarNivel : MonoBehaviour {
 		textoCanvas =  GameObject.FindGameObjectWithTag ("TextCanvas").GetComponent <Text> ();
 
 	}
-	void Start () {
-
-	}
 
 	void Update () {
 
