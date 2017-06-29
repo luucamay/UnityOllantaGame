@@ -35,6 +35,7 @@ public class VRWalkWhilePressing : MonoBehaviour {
 			moveForward = true;
 			//cambiar el estado de animacion a caminar
 			/*en un futuro ver la opcion que mientras mas tiempo se presione el bóton mas caminar*/
+			Handheld.Vibrate();
 			animOllanta.SetFloat (speedHash,0.5f);
 		} else {
 			moveForward = false;

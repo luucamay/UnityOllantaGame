@@ -353,8 +353,8 @@ ModelImporter:
     - serializedVersion: 16
       name: WalkBigWarrior
       takeName: 00 - Dancer.003|00 - Dancer 001Action.004
-      firstFrame: 201
-      lastFrame: 260
+      firstFrame: 215
+      lastFrame: 245
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

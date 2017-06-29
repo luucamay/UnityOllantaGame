@@ -169,10 +169,66 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip '00 - Dancer.006|00 - Dancer 001Action.003' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Abdomen' has translation
+      animation that will be discarded.\n\t'Bone03_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Spear' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' has translation animation
+      that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone06_L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.006|00 - Dancer 001Action.004' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'Spear' has translation animation that
+      will be discarded.\n\t'00-EstacaHips' has translation animation that will be
+      discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bone06_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone06_R' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.006|00 - Dancer 001Action.005' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Spear' has translation
+      animation that will be discarded.\n\t'00-EstacaHips' has translation animation
+      that will be discarded.\n\t'00-EstacaHips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone06_L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.006|00 - Dancer 001Action.006' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'Spear' has translation animation that
+      will be discarded.\n\t'Spear' has scale animation that will be discarded.\n\t'00-EstacaHips'
+      has translation animation that will be discarded.\n\t'00-EstacaHips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      '00 - Dancer.006|00 - Dancer 001Action.007' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Abdomen' has translation animation that will
+      be discarded.\n\t'Bone03_L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Hombros_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone02.021_R' has translation
+      animation that will be discarded.\n\t'Spear' has translation animation that
+      will be discarded.\n\t'Spear' has scale animation that will be discarded.\n\t'00-EstacaHips'
+      has translation animation that will be discarded.\n\t'00-EstacaHips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone06_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
